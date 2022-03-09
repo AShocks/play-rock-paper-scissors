@@ -8,6 +8,26 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h2>
+            Play Rock, Paper, Scissors
+        </h2>
+    </header>
+    <section class="game-area">
+        <div>
+            <p>Choose your move:</p>
+            <button aria-label="Rock" data-choice="0" class="game-option">Rock</button>
+            <button aria-label="Rock" data-choice="1" class="game-option">Paper</button>
+            <button aria-label="Rock" data-choice="2" class="game-option">Scissors</button>
+        </div>
+        <div id="message"></div>
+        <div class="player">
+            <h3 class="score">Player Score: <span id="player-score">0</span></h3>
+        </div>
+        <div class="computer">
+            <h3 class="score">Computer Score: <span id="computer-score">0</span></h3>
+        </div>
+    </section>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
